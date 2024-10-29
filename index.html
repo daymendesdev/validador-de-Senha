@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de senha</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/validar.js" defer></script>
+</head>
+<body>
+    <form id="formCadastro">
+        <fieldset>
+            <legend>Cadastre-se</legend>
+                <input type="text" name="name" id="name" placeholder="Nome completo:" required>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail:" required>
+                <input type="text" name="username" id="username" placeholder="Escolha um nome de usuário" required>
+                <input type="password" name="password" id="password" placeholder="Defina a senha:" required>
+                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirme a senha:" required>
+                <p id="exibirErro"></p>
+                <button type="submit" id="cadastrar">Cadastrar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
