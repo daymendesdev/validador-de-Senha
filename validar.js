@@ -12,4 +12,6 @@ function validarSenha(event) {
         document.getElementById("exibirErro").style.color = "red";
     }
 }
+
+const formulario = document.getElementById("formCadastr");
 formCadastro.addEventListener("submit", validarSenha);
